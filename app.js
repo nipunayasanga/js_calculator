@@ -1,6 +1,6 @@
 (function() {
     // This line starts something called an "immediately-invoked function expression" (IIFE).
-    // It's like creating a little program that runs right away.
+    // creating a little program that runs right away.
 
     let screen = document.querySelector('.screen');
     // We're finding an element on the webpage with a class of '.screen'.
