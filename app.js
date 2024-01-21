@@ -2,7 +2,7 @@
     // This line starts something called an "immediately-invoked function expression" (IIFE).
     // creating a little program that runs right away.
 
-    let screen = document.querySelector('.screen');
+    let screen = document.querySelector('.screen')
     // We're finding an element on the webpage with a class of '.screen'.
     // Think of it as finding a place where we can show and manipulate information, like a calculator screen.
 
