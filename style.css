@@ -1,9 +1,11 @@
+/* Apply the following styles to all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styles for the entire body of the document */
 body {
     min-height: 100vh;
     background: #efeff2;
@@ -13,6 +15,7 @@ body {
     flex-direction: column;
 }
 
+/* Styles for the calculator container */
 .calculator {
     width: 300px;
     height: 500px;
@@ -22,6 +25,7 @@ body {
     overflow: hidden;
 }
 
+/* Styles for the input field within the form */
 form input {
     width: 100%;
     height: 150px;
@@ -32,9 +36,10 @@ form input {
     color: white;
     background: rgb(0, 1, 61);
     text-align: right;
-    pointer-events: none;
+    pointer-events: none; /* Disable pointer events to prevent interaction with the input */
 }
 
+/* Styles for the buttons container */
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +47,7 @@ form input {
     padding: 20px;
 }
 
+/* Styles for individual buttons */
 button {
     flex: 0 0 22%;
     margin: 5px 0;
@@ -54,46 +60,53 @@ button {
     cursor: pointer;
 }
 
+/* Styles for the yellow-colored button */
 .btn-yellow {
     background: orange;
     color: white;
 }
 
+/* Styles for the grey-colored button */
 .btn-grey {
     background: lightgray;
 }
 
+/* Styles for the equal button */
 .btn-equal {
     background: green;
 }
 
+/* Styles for the clear button */
 .btn-clear {
     background: red;
 }
 
+/* Styles for the title container */
 .title-container {
     height: 60px; /* Set a fixed height for the title container */
-    overflow: hidden;
-    
+    overflow: hidden; /* Hide content that exceeds the height */
 }
 
+/* Styles for the title text */
 .title {
     font-size: 2rem;
     font-weight: bold;
     color: #22252D;
     font-family: 'Courier New', Courier, monospace;
-    transition: color 0.1s;
+    transition: color 0.1s; /* Add a color transition effect */
     border: 2px solid #333;
     border-radius: 15px;
     padding: 15px;
 }
 
+/* Hover effect on the title text */
 .title:hover {
-    color: #ffffff;
+    color: #ffffff; /* Change text color on hover */
     background-color: #22252D;
     border: 2px solid #FF6347; /* Adjust border color on hover */
 }
 
-.padd{
+/* Additional padding for spacing */
+.padd {
     padding-bottom: 20px;
 }
